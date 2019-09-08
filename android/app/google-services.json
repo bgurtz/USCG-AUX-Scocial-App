@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "536887493023",
+    "firebase_url": "https://uscg-aux-social-app.firebaseio.com",
+    "project_id": "uscg-aux-social-app",
+    "storage_bucket": "uscg-aux-social-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:536887493023:android:ccf302435b422b5a053daa",
+        "android_client_info": {
+          "package_name": "com.example.uscg_aux_scocial_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "536887493023-9s1p88mil52dbatums46dkkbq8jorh9h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAx2UhDy5xstNIG7dYguO1FrBwvR-u8t_c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "536887493023-9s1p88mil52dbatums46dkkbq8jorh9h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
