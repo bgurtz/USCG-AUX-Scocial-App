@@ -1,4 +1,4 @@
-package com.example.asdf
+package com.example.uscg_aux_scocial_app
 
 import android.os.Bundle
 
