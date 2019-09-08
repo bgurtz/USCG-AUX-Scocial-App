@@ -1,4 +1,4 @@
-# uscg_aux_scocial_app
+# US Coast Guard Auxiliary Social App for Members http://www.USCGA.net
 
 A new Flutter project.
 
