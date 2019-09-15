@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:uscg_aux_scocial_app/pages/home.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flotilla Social',
       debugShowCheckedModeBanner: false,
-      home: Text("USCG AUX Social App"),
+      home: Home(),
     );
   }
 }
