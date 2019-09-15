@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "536887493023-t0nuiog5e8rrs9dq6pvgkub9l950e8oc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.uscg_aux_scocial_app",
+            "certificate_hash": "cd45d2f12bb021776ae6772e8234eb4483913875"
+          }
+        },
+        {
           "client_id": "536887493023-9s1p88mil52dbatums46dkkbq8jorh9h.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -30,6 +38,13 @@
             {
               "client_id": "536887493023-9s1p88mil52dbatums46dkkbq8jorh9h.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "536887493023-qquq5kev3edkjrp5n6budhkn6gp01guh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.uscg-aux-scocial-app"
+              }
             }
           ]
         }
