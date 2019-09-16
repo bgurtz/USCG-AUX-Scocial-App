@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.uscg_aux_scocial_app">
+    package="com.example.firebase_email_signin">
 
     <!-- io.flutter.app.FlutterApplication is an android.app.Application that
          calls FlutterMain.startInitialization(this); in its onCreate method.
@@ -8,7 +8,7 @@
          FlutterApplication and put your custom class here. -->
     <application
         android:name="io.flutter.app.FlutterApplication"
-        android:label="uscg_aux_scocial_app"
+        android:label="firebase_email_signin"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

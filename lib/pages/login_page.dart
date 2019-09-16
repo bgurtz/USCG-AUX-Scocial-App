@@ -169,7 +169,7 @@ class _HomeState extends State<Home> {
                           child: Text(
                             'Get Register',
                             style: TextStyle(
-                              fontSize: 1,
+                              fontSize: 12,
                               color: Colors.green,
                             ),
                           ),
@@ -198,7 +198,7 @@ class _HomeState extends State<Home> {
               : Container()),
           (!isGoogleSignIn
               ? RaisedButton(
-                  child: Text("Google Login"),
+                  child: Text('Google Login'),
                   onPressed: () {
                     googleSignin(context).then((user) {
                       if (user != null) {

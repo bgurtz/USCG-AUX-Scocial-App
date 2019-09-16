@@ -1,16 +1,19 @@
+import 'package:firebase_email_signin/pages/Home.dart';
+//import 'package:firebase_email_signin/pages/login_page.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:uscg_aux_scocial_app/pages/home.dart';
 
-void main() {
-  runApp(MyApp());
-}
+void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
+  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flotilla Social',
-      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        primarySwatch: Colors.deepPurple,
+        accentColor: Colors.teal,
+      ),
       home: Home(),
     );
   }
