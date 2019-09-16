@@ -49,7 +49,7 @@ class _HomeState extends State<Home> {
               style: TextStyle(
                 fontFamily: "Signatra",
                 fontSize: 80.0,
-                color: Colors.orangeAccent[400], 
+                color: Colors.orangeAccent, 
               ),
             ),
                         Text(
@@ -145,7 +145,7 @@ class _HomeState extends State<Home> {
                             'LOGIN',
                             style: TextStyle(
                               fontSize: 18,
-                              color: Colors.green,
+                              color: Colors.black,
                             ),
                           ),
                           onPressed: () {
@@ -169,7 +169,7 @@ class _HomeState extends State<Home> {
                           child: Text(
                             'Get Register',
                             style: TextStyle(
-                              fontSize: 1,
+                              fontSize: 16,
                               color: Colors.green,
                             ),
                           ),
@@ -193,12 +193,12 @@ class _HomeState extends State<Home> {
               ? Text(
                   successMessage,
                   textAlign: TextAlign.center,
-                  style: TextStyle(fontSize: 18, color: Colors.green),
+                  style: TextStyle(fontSize: 18, color: Colors.black),
                 )
               : Container()),
           (!isGoogleSignIn
               ? RaisedButton(
-                  child: Text("Google Login"),
+                  child: Text('Google Login'),
                   onPressed: () {
                     googleSignin(context).then((user) {
                       if (user != null) {
